@@ -82,6 +82,7 @@ end//always
 // Keyboard Data to Display
 // --grab keyboard data and assign the 7 Segment Display (segDisp) to that value.
 //	--Turn the kbData line into data, using the refrence gkbClk,
+// --Good for debuggin things
 //-------------------------
 always@ (negedge gkbClk)
 begin
