@@ -66,7 +66,7 @@ module graphic_driver(clk, h_sync, v_sync,redIn, greenIn, blueIn, red, green, bl
    end
 	
 always@(posedge halfClk)
-//painting---------------------------------------------------------------------
+//start painting---------------------------------------------------------------------
    if( (h_conter<=48)|(h_conter>=688)|(v_conter<=33)|(v_conter>=513) )
    begin
 		red[3:0]<=0;
